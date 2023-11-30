@@ -1,0 +1,83 @@
+:root{
+  --color_logo: #90ADBB;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color_logo);
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+    
+  }
+  .navbar :hover{
+    color: black;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .achtergrond {
+    background: url('./img/achtergrond_voorpagina.jpg') center/cover no-repeat fixed;
+    height: 60vh;
+    /* Hieronder wordt een overlay toegevoegd om de tekst leesbaar te maken */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+  }
+  .button_contact{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--color_logo);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .button_contact:hover{
+    background-color: darkgray; /* Donkerder groen bij hover, pas aan naar wens */
+  }
+
+  .achtergrond h1 {
+    margin-top: 0;
+    padding-top: 20vh; /* Pas deze waarde aan om de tekst positie aan te passen */
+    font-size: 2.5em;
+    color: white;
+  }
+  .Logo_navbar {
+    height: 50px; /* Pas de hoogte van het logo aan naar wens */
+    width: auto; /* Zorgt ervoor dat de breedte proportioneel wordt aangepast aan de hoogte */
+    vertical-align: middle; /* Hiermee wordt het logo verticaal gecentreerd binnen het lijstitem */
+  }
+  
