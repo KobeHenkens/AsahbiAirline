@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
     padding: 0;
   }
 
@@ -115,3 +115,24 @@ body {
   .button_contact:hover{
     background-color: darkgray; /* Donkerder groen bij hover, pas aan naar wens */
   }
+
+  .achtergrond h1 {
+    margin-top: 0;
+    padding-top: 20vh; /* Pas deze waarde aan om de tekst positie aan te passen */
+    font-size: 2.5em;
+    color: white;
+  }
+  .Logo_navbar {
+    height: 50px; /* Pas de hoogte van het logo aan naar wens */
+    width: auto; /* Zorgt ervoor dat de breedte proportioneel wordt aangepast aan de hoogte */
+    vertical-align: middle; /* Hiermee wordt het logo verticaal gecentreerd binnen het lijstitem */
+  }
+  
+  /* Contact Page */
+.contact {
+  display: block;
+  font: 1rem
+}
+.contact input, label {
+  margin: 0.4rem 0;
+}
