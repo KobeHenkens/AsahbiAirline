@@ -8,28 +8,28 @@ body {
   }
   
   .navbar {
-    position: fixed;
-    top: 0;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     background-color: var(--color_logo);
     padding: 10px;
     box-sizing: border-box;
-    z-index: 1;
-    
   }
-  .navbar :hover{
+
+  .navbar > li {
+    font-size: 30px;
+  }
+
+  .navbar a:hover{
     color: black;
   }
 
   .navbar ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
-  }
-  
-  .navbar li {
-    float: left;
   }
   
   .navbar a {
@@ -37,6 +37,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     color: white;
+    transition: color 0.25s ease-out;
   }
   
   
