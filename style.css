@@ -100,3 +100,39 @@ body {
 .custom-shape-divider-bottom-1701943727 .shape-fill {
     fill: #ffff;
 }
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.item {
+  box-sizing: border-box;
+  width: 33.33%;
+  margin-bottom: 20px;
+  padding: 0 0.8rem;
+}
+
+.content {
+  color: #242424;
+  background-color: var(--color_logo);
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+}
+.title-page{
+  color: var(--color_logo);
+  text-align: center;
+}
+.content>img{
+  width: 100%; /* Pas de breedte aan zoals gewenst */
+  height: 19rem; /* Pas de hoogte aan zoals gewenst */
+  object-fit: cover; /* Bijsnijden om de volledige ruimte in te vullen */
+}
+
