@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
     padding: 0;
   }
   
@@ -81,3 +81,11 @@ body {
     vertical-align: middle; /* Hiermee wordt het logo verticaal gecentreerd binnen het lijstitem */
   }
   
+  /* Contact Page */
+.contact {
+  display: block;
+  font: 1rem
+}
+.contact input, label {
+  margin: 0.4rem 0;
+}
