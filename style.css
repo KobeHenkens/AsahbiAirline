@@ -3,43 +3,17 @@
 }
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
     padding: 0;
-  }
-  
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: var(--color_logo);
-    padding: 10px;
-    box-sizing: border-box;
-    z-index: 1;
-    
-  }
-  .navbar :hover{
-    color: black;
   }
 
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-  }
-  
-  .navbar li {
-    float: left;
-  }
-  
-  .navbar a {
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
+  .achtergrond h1 {
+    margin-top: 0;
+    padding-top: 20vh; /* Pas deze waarde aan om de tekst positie aan te passen */
+    font-size: 2.5em;
     color: white;
-  }
-  
-  
+  }  
+
   .achtergrond {
     background: url('./img/achtergrond_voorpagina.jpg') center/cover no-repeat fixed;
     height: 60vh;
@@ -52,6 +26,79 @@ body {
     text-align: center;
     flex-direction: column;
   }
+
+/* NAV */
+
+  .navbar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--color_logo);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .navbar > li {
+    font-size: 30px;
+  }
+
+  .navbar a:hover{
+    color: black;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    display: flex;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.25s ease-out;
+  }
+
+  .Logo_navbar {
+    height: 50px; /* Pas de hoogte van het logo aan naar wens */
+    width: auto; /* Zorgt ervoor dat de breedte proportioneel wordt aangepast aan de hoogte */
+    vertical-align: middle; /* Hiermee wordt het logo verticaal gecentreerd binnen het lijstitem */
+  }
+
+/* TAAL */
+
+  /* #lang {
+    margin-left: auto;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #lang-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    background-color: var(--color_logo);
+    z-index: 1;
+  }
+
+  #lang:hover #lang-options {
+    display: flex;
+    flex-direction: column;
+  } */
+
+
+  
+  /* CONTACT */
+
   .button_contact{
     padding: 10px 20px;
     font-size: 16px;
@@ -81,58 +128,11 @@ body {
     vertical-align: middle; /* Hiermee wordt het logo verticaal gecentreerd binnen het lijstitem */
   }
   
-  .custom-shape-divider-bottom-1701943727 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  /* Contact Page */
+.contact {
+  display: block;
+  font: 1rem
 }
-
-.custom-shape-divider-bottom-1701943727 svg {
-    position: relative;
-    display: block;
-    width: calc(131% + 1.3px);
-    height: 87px;
+.contact input, label {
+  margin: 0.4rem 0;
 }
-
-.custom-shape-divider-bottom-1701943727 .shape-fill {
-    fill: #ffff;
-}
-.flexbox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  box-sizing: border-box;
-  margin: 0px;
-}
-
-.item {
-  box-sizing: border-box;
-  width: 33.33%;
-  margin-bottom: 20px;
-  padding: 0 0.8rem;
-}
-
-.content {
-  color: #242424;
-  background-color: var(--color_logo);
-  font-weight: 600;
-  text-align: center;
-  box-sizing: border-box;
-  height: 100%;
-  padding: 10px;
-}
-.title-page{
-  color: var(--color_logo);
-  text-align: center;
-}
-.content>img{
-  width: 100%; /* Pas de breedte aan zoals gewenst */
-  height: 19rem; /* Pas de hoogte aan zoals gewenst */
-  object-fit: cover; /* Bijsnijden om de volledige ruimte in te vullen */
-}
-
