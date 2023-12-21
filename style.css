@@ -9,7 +9,11 @@ body {
     font-family: Poppins, sans-serif;
     padding: 0;
   }
-  
+  .container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
   .navbar {
     position: fixed;
     top: 0;
