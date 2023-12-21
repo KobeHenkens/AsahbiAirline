@@ -90,9 +90,15 @@ body {
   
   /* Contact Page */
 .start-contact {
+  height: 60vh;
+  /* Hieronder wordt een overlay toegevoegd om de tekst leesbaar te maken */
+  position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  flex-direction: column;
 }
 .start-contact h1 {
   position: absolute;
@@ -107,6 +113,33 @@ body {
   height: 60vh;
   width: 100%;
   background-size: cover;
+}
+.custom-shape-divider-bottom-1701943727 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1701943727 svg {
+  position: relative;
+  display: block;
+  width: calc(131% + 1.3px);
+  height: 87px;
+}
+
+.custom-shape-divider-bottom-1701943727 .shape-fill {
+  fill: #ffff;
+}
+.white-bg {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  z-index: 10;
+  height: 0.625rem;
+  top: 98%;
 }
 .container-contactinfo {
   margin-top: 5rem;
