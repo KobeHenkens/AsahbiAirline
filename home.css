@@ -1,0 +1,23 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+:root{
+  --color_logo: #90ADBB;
+}
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    padding: 0;
+}
+.achtergrond {
+    background: url('./img/achtergrond_voorpagina.jpg') center/cover no-repeat fixed;
+    height: 60vh;
+    /* Hieronder wordt een overlay toegevoegd om de tekst leesbaar te maken */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+  }
