@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 .achtergrond {
-    background: url('./img/achtergrond_voorpagina.jpg') center/cover no-repeat fixed;
+    background: url('../img/achtergrond_voorpagina.jpg') center/cover no-repeat fixed;
     height: 60vh;
     /* Hieronder wordt een overlay toegevoegd om de tekst leesbaar te maken */
     position: relative;
@@ -33,7 +33,6 @@ body {
     transition: background-color 0.3s ease;
     text-decoration: none;
     color: white;
-
   }
 
   .button_contact:hover{
