@@ -21,3 +21,97 @@ body {
     text-align: center;
     flex-direction: column;
   }
+
+
+  .button_contact{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--color_logo);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .button_contact:hover{
+    background-color: darkgray; /* Donkerder groen bij hover, pas aan naar wens */
+  }
+
+  .achtergrond h1 {
+    margin-top: 0;
+    padding-top: 20vh; /* Pas deze waarde aan om de tekst positie aan te passen */
+    font-size: 2.5em;
+    color: white;
+  }
+  .Logo_navbar {
+    height: 50px; /* Pas de hoogte van het logo aan naar wens */
+    width: auto; /* Zorgt ervoor dat de breedte proportioneel wordt aangepast aan de hoogte */
+    vertical-align: middle; /* Hiermee wordt het logo verticaal gecentreerd binnen het lijstitem */
+  }
+  
+  /* Contact Page */
+.start-contact {
+  height: 60vh;
+  /* Hieronder wordt een overlay toegevoegd om de tekst leesbaar te maken */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+}
+.start-contact h1 {
+  position: absolute;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-top: 0;
+}
+.start-contact img {
+  position: relative;
+  order: -1;
+  filter: brightness(60%);
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-sizing: border-box;
+  margin: 0px;
+  }
+  
+  .item {
+  box-sizing: border-box;
+  width: 33.33%;
+  margin-bottom: 20px;
+  padding: 0 0.8rem;
+  }
+  
+  .content {
+  color: #242424;
+  background-color: var(--color_logo);
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  }
+  .title-page{
+  color: var(--color_logo);
+  text-align: center;
+  }
+  .content>img{
+  width: 100%; /* Pas de breedte aan zoals gewenst */
+  height: 19rem; /* Pas de hoogte aan zoals gewenst */
+  object-fit: cover; /* Bijsnijden om de volledige ruimte in te vullen */
+  }
+  
