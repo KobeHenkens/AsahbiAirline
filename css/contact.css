@@ -9,6 +9,11 @@ body {
     font-family: Poppins, sans-serif;
     padding: 0;
 }
+/* Helpers */
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
 /* Contact Page */
 .start-contact {
     height: 60vh;
