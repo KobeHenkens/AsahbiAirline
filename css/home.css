@@ -86,6 +86,7 @@ body {
   align-items: stretch;
   box-sizing: border-box;
   margin: 0px;
+  padding: 1rem;
   }
   
   .item {
@@ -103,6 +104,7 @@ body {
   box-sizing: border-box;
   height: 100%;
   padding: 10px;
+  border-radius: 2rem;
   }
   .title-page{
   color: var(--color_logo);
@@ -113,4 +115,27 @@ body {
   height: 19rem; /* Pas de hoogte aan zoals gewenst */
   object-fit: cover; /* Bijsnijden om de volledige ruimte in te vullen */
   }
-  
+
+  .foto_homepage{
+    border-radius: 2rem;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .container1>.container{
+    background: #242424;
+  }
+  .container2>.container{
+    background: #333333;
+  }
+  .container2>.container>.flexbox{
+    justify-content: center;
+  }
+  a{
+    text-decoration: none;
+  }
