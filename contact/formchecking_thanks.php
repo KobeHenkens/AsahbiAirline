@@ -15,8 +15,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,300;1,500;1,800&family=Poppins:ital,wght@0,100;0,300;0,500;0,800;1,100;1,300;1,400;1,500;1,800&display=swap" rel="stylesheet">
         <!--Css-->
-        <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="./contact.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/contact.css">
     </head>
     <body>
         <header>

@@ -129,8 +129,8 @@ if (isset($_POST['btnSubmit'])) {
         <!--Icons-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Css-->
-        <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="./contact.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/contact.css">
     </head>
     <body>
         <header>
