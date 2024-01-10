@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bbcbd1;
+}
+
+body main {
+    margin-left: 2rem;
+}
+
+.title {
+    margin: 3rem 0 2rem 0;
+    font-size: 1.6rem;
+}
+
+.website {
+    margin: 3rem 0 0 2rem;
+}
+
+.whoarewe {
+    margin: 3rem 0 0 2rem;
+}
+
+.asahbi {
+    border: 0.2rem solid #bbcbd1;
+    box-shadow: 2px 2px 2px #8e8e8e, -2px -2px 2px #8e8e8e;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+.asahbi h3 {
+    margin-left: 1rem;
+}
+
+.asahbi p {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.asahbi img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 12rem;
+    width: 19rem;
+}
