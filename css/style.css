@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 :root{
-  --color_logo: #90ADBB;
+  --color_logo: #ffc0cb;
 }
 body {
   margin: 0;
@@ -38,7 +38,7 @@ body {
 }
 .navbar ul a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-weight: 400;
   font-size: 1.3rem;
 }
@@ -53,7 +53,7 @@ body {
 .navbar .dropdown > a {
   font-weight: 400;
   font-size: 1.3rem;
-  color: #fff;
+  color: #000;
   border: none;
   text-decoration: none;
   position: relative;
