@@ -37,7 +37,7 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,300;1,500;1,800&family=Poppins:ital,wght@0,100;0,300;0,500;0,800;1,100;1,300;1,400;1,500;1,800&display=swap" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="../css/contact.css">
 
 <body>
     <div class="admin_dashboard-container">
