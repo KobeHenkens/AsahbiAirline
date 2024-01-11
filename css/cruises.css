@@ -1,0 +1,59 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.achtergrond {
+    height: 60vh;
+    /* Hieronder wordt een overlay toegevoegd om de tekst leesbaar te maken */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+.achtergrond h1 {
+    position: absolute;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 0;
+}
+.achtergrond img {
+    position: relative;
+    order: -1;
+    filter: brightness(60%);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.border {
+    display: flex;
+    border: 0.1rem solid var(--color_logo);
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: var(--color_logo);
+    box-shadow: 1px 1px 2px gray;
+}
+
+.item {
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 0 0.8rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    height: 18rem;
+    width: 36rem;
+}
+
