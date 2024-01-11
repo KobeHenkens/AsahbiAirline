@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 :root{
-  --color_logo: #90ADBB;
+  --color_logo: #ffc0cb;
 }
 body {
     margin: 0;
@@ -128,10 +128,12 @@ body {
   }
 
   .container1>.container{
-    background: #242424;
+    background: white;
   }
   .container2>.container{
     background: #333333;
+    width: 75%;
+    margin: auto;
   }
   .container2>.container>.flexbox{
     justify-content: center;
