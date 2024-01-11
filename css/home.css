@@ -104,10 +104,12 @@ body {
   }
 
   .container1>.container{
-    background: #242424;
+    background: white;
   }
   .container2>.container{
     background: #333333;
+    width: 75%;
+    margin: auto;
   }
   .container2>.container>.flexbox{
     justify-content: center;
