@@ -41,7 +41,7 @@
     flex-direction: column;
     margin-top: 2rem;
     background-color: var(--color_logo);
-    box-shadow: 1px 1px 2px gray;
+    box-shadow: 2px 2px 2px gray;
     width: 100%;
 }
 
