@@ -41,9 +41,8 @@
     flex-direction: column;
     margin-top: 2rem;
     background-color: var(--color_logo);
-    box-shadow: 2px 2px 2px gray;
+    box-shadow: 1px 1px 2px gray;
     width: 100%;
-    border-radius: .75rem;
 }
 
 .item {
@@ -56,6 +55,8 @@
 }
 
 .item img {
+    height: 18rem;
+    width: 36rem;
     aspect-ratio: 16/9;
     width: 100%;
 }
