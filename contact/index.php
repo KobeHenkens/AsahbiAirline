@@ -128,6 +128,8 @@ if (isset($_POST['btnSubmit'])) {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,300;1,500;1,800&family=Poppins:ital,wght@0,100;0,300;0,500;0,800;1,100;1,300;1,400;1,500;1,800&display=swap" rel="stylesheet">
         <!--Icons-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1ae8808211.js" crossorigin="anonymous"></script>
+
         <!--Css-->
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/contact.css">
@@ -137,6 +139,7 @@ if (isset($_POST['btnSubmit'])) {
             <nav class="navbar">
                 <a href="../index.html"><img src="../img/Logo_airline.png" alt="logo website" class="logo"></a>
                     <ul>
+                        <li><a href="../index.html">Home</a></li>
                         <li><a href="../about/">About</a></li>
                         <li><a href="../vakanties/">Vakanties</a></li>
                         <li><a href="../cruises/">Cruises</a></li>
@@ -244,6 +247,34 @@ if (isset($_POST['btnSubmit'])) {
             </div>
         </main>
         <footer>
+            <!--Copyright Section Start-->
+            <div class="container-background">
+                <div class="copyright container-footer">
+                    <p>&copy;2023 AsahbiAirline</p>
+                    <ul class="icons-footer">
+                        <li>
+                            <a href="https://youtube.com">
+                                <i class="fa-brands fa-youtube"></i>
+                                <span class="sr-only">Strava Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com">
+                                <i class="fa-brands fa-square-instagram"></i>
+                                <span class="sr-only">Instagram Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com">
+                                <i class="fa-brands fa-facebook"></i>
+                                <span class="sr-only">Facebook Profile</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>All Right Reserved</p>
+                </div>
+            </div>
+            <!--Copyright Section End-->
 
         </footer>
     </body>
