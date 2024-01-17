@@ -114,3 +114,44 @@ body {
   height: 0.625rem;
   top: 98%;
 }
+
+
+/* footer */
+.container-footer {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.container-background {
+  margin: 0 auto;
+  padding: 1px; /* This padding will make the margins of Hire Section and footer collapse */
+  background-color: #ffc0cb; 
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+.copyright .icons-footer {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  list-style: none;
+  padding: 1;
+}
+.copyright .icons-footer a {
+  color: #000;
+}
+.copyright .icons-footer a:hover {
+  color: #AEAEAE;
+}
+.copyright .icons-footer .sr-only { /* Screenreader only */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
