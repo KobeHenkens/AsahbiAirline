@@ -35,7 +35,6 @@
 }
 
 .border {
-    aspect-ratio: 16/9;
     display: flex;
     border: 0.1rem solid var(--color_logo);
     flex-direction: column;
@@ -57,7 +56,5 @@
 .item img {
     height: 18rem;
     width: 36rem;
-    aspect-ratio: 16/9;
-    width: 100%;
 }
 
