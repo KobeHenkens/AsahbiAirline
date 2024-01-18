@@ -1,6 +1,9 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+:root{
+  --color_logo: #ffc0cb;
+}
 body {
     margin: 0;
     font-family: Poppins, sans-serif;

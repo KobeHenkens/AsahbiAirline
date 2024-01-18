@@ -1,0 +1,45 @@
+
+#rusland img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#rusland {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+body{
+    background-color: #ffcfd7;
+}
+.row > * {
+    flex: 1; /* Maak beide kolommen flexibel */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+p {
+    line-height: 1.6;
+}
+.afsluit{
+    display: flex;
+    align-self: center;
+    max-width: 50%;
+    font-size: 1rem;
+}
