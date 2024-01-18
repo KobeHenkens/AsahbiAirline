@@ -91,7 +91,7 @@ body {
   border-radius: 2rem;
   }
   .title-page{
-  color: var(--color_logo);
+  color: #000;
   text-align: center;
   }
   .content>img{
