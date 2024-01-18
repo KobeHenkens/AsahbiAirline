@@ -3,11 +3,16 @@
 }
 
 body {
-    background-color: #bbcbd1;
+    background-color: #fffdff;
 }
 
 body main {
     margin-left: 2rem;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
 }
 
 .title {
@@ -16,38 +21,84 @@ body main {
 }
 
 .website {
-    margin: 3rem 0 0 2rem;
+    margin: 3rem 2rem 0 2rem;
+    border: 0.2rem solid #ffc0cb;
+    box-shadow: 0.4rem 0.4rem 0.4rem #e9cfcf;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    font-size: 1.2rem;
 }
 
+.website h1 {
+    font-size: 1.8rem;
+}
+
+.button_contact{
+    display: flex;
+    justify-content: center;
+    max-width: 10%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fffdff;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: black;
+    border: 0.2rem solid var(--color_logo);
+  }
+
+  .button_contact:hover{
+    background-color: var(--color_logo); /* Donkerder groen bij hover, pas aan naar wens */
+  }
+
 .whoarewe {
-    margin: 3rem 0 0 2rem;
+    /* margin: 3rem 0 0 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whoarewe h2 {
+    font-size: 1.8rem;
+}
+
+.asahbis {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 60rem;
 }
 
 .asahbi {
-    border: 0.2rem solid #bbcbd1;
-    box-shadow: 2px 2px 2px #8e8e8e, -2px -2px 2px #8e8e8e;
+    /* border: 0.2rem solid var(--color_logo); */
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #888686;
+    width: 40%;
+    margin-bottom: 2rem;
+    /* padding: 0 1rem .5rem 1rem; */
+    /* display: flex;
+    justify-content: space-around; */
     display: flex;
     flex-direction: column;
-    width: 60%;
-    margin-bottom: 2rem;
+    align-items: center;
 }
 
 .asahbi h3 {
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .asahbi p {
-    
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    max-width: 80%;
 }
 
 .asahbi img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 12rem;
-    width: 19rem;
+    width: 100%;
+    order: -1;
 }
