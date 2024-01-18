@@ -31,9 +31,8 @@
 .container {
     max-width: 80%;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     gap: 2rem;
-    
 }
 
 .border {
