@@ -59,46 +59,6 @@ body {
 .populair h2 {
     margin-bottom: 3rem;
 }
-.cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    width: 100%;
-}
-.cards .card {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 18.75rem;
-    height: 18.75rem;
-}
-.cards .data {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    z-index: 10;
-    color: #000;
-    width: 18.75rem;
-    background-color: rgba(255, 192, 203, 80%);
-}
-.cards .data h3 {
-    margin: 0.7rem 0 0.1rem 0;
-    font-weight: 600;
-}
-.cards .data h4 {
-    margin: 0 0 1rem 0;
-    font-weight: 300;
-}
-.cards .card img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 7px 20px 0;
-}
-.cards .card:hover {
-    transform: scale(1.05);
-}
 /* Seizoenen section */
 .seizoen {
     display: flex;
