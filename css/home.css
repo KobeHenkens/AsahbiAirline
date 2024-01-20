@@ -9,6 +9,23 @@ body {
     font-family: Poppins, sans-serif;
     padding: 0;
 }
+/* Helpers */
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.underlined {
+  position: relative;
+}
+.underlined::before {
+  content: "";
+  position: absolute;
+  bottom: -0.8rem;
+  margin-left: 1rem;
+  height: 0.25rem;
+  background-color: #E2E1E1;
+  width: 14rem;
+}
 .start-home {
   height: 60vh;
   /* Hieronder wordt een overlay toegevoegd om de tekst leesbaar te maken */
@@ -75,36 +92,33 @@ body {
   .cards .card .data h4 {
     margin-bottom: 0.5rem;
   }
-  .content>img{
-  width: 100%; /* Pas de breedte aan zoals gewenst */
-  height: 19rem; /* Pas de hoogte aan zoals gewenst */
-  object-fit: cover; /* Bijsnijden om de volledige ruimte in te vullen */
-  }
 
-  .foto_homepage{
-    border-radius: 2rem;
-  }
-  .container{
+  /* Quiz section */
+  .quiz {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .quiz h2 {
+    margin: 4rem 0 2rem;
+  }
+  .quiz .underlined::before {
+    width: 12rem;
+  }
+  .quiz .data {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 1rem;
     padding: 1rem;
-    border-radius: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
   }
-
-  .container1>.container{
-    background: white;
+  .quiz h3 {
+    margin: 1rem;
   }
-  .container2>.container{
-    background: #333333;
-    width: 75%;
-    margin: auto;
-  }
-  .container2>.container>.flexbox{
-    justify-content: center;
-  }
-  a{
-    text-decoration: none;
+  .quiz p {
+    margin: 0;
   }
 
   /* cookies */
@@ -153,16 +167,4 @@ body {
   /* Apply the fade-in effect to the popup */
   .cookies-popup {
       animation: fadeIn 0.25s ease-in-out;
-  }
-  .underlined {
-    position: relative;
-  }
-  .underlined::before {
-    content: "";
-    position: absolute;
-    bottom: -0.8rem;
-    margin-left: 1rem;
-    height: 0.25rem;
-    background-color: #E2E1E1;
-    width: 14rem;
   }

@@ -146,6 +146,11 @@ body {
   margin: 0 0 1rem 0;
   font-weight: 300;
 }
+.cards .data a {
+  color: #000;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
 .cards .card img {
   position: relative;
   width: 100%;
@@ -167,6 +172,10 @@ body {
   white-space: nowrap;
   text-indent: 100%;
   overflow: hidden;
+}
+.cards .card .overlay-link {
+  position: absolute;
+  top: 0;
 }
 /* footer */
 .container-footer {

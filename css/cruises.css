@@ -1,7 +1,10 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+}
 .achtergrond {
     height: 60vh;
     /* Hieronder wordt een overlay toegevoegd om de tekst leesbaar te maken */
@@ -28,33 +31,15 @@
     background-size: cover;
 }
 
-.container {
+.cruises {
     display: flex;
-    justify-content: space-evenly;
-    gap: 2rem;
-}
-
-.border {
-    display: flex;
-    border: 0.1rem solid var(--color_logo);
-    flex-direction: column;
-    margin-top: 2rem;
-    background-color: var(--color_logo);
-    box-shadow: 2px 2px 2px gray;
-    width: 100%;
-}
-
-.item {
-    display: flex;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    padding: 0 0.8rem;
     flex-direction: column;
     align-items: center;
+    margin: 4rem auto;
 }
-
-.item img {
-    height: 18rem;
-    width: 36rem;
+.cruises .cards {
+    text-align: center;
 }
-
+.cruises .cards .card img {
+    object-fit: cover;
+}
