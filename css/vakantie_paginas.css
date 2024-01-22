@@ -7,27 +7,24 @@
     border-radius: 1rem;
     width: 100%;
 }
-
+#spanje img {
+    border-radius: 1rem;
+    width: 100%;
+}
 .row {
     display: flex;
     flex-direction: row;
     gap: 2rem;
 }
 
-#rusland {
+#rusland, #oekraine, #spanje {
     margin: 0 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     
 }
-#oekraine {
-    margin: 0 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    
-}
+
 body{
     background-color: #ffcfd7;
 }
