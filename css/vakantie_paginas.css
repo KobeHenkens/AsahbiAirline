@@ -3,6 +3,10 @@
     border-radius: 1rem;
     width: 100%;
 }
+#oekraine img {
+    border-radius: 1rem;
+    width: 100%;
+}
 
 .row {
     display: flex;
@@ -11,6 +15,13 @@
 }
 
 #rusland {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+#oekraine {
     margin: 0 2rem;
     display: flex;
     flex-direction: column;
