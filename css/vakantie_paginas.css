@@ -1,13 +1,5 @@
 
-#rusland img {
-    border-radius: 1rem;
-    width: 100%;
-}
-#oekraine img {
-    border-radius: 1rem;
-    width: 100%;
-}
-#spanje img {
+img {
     border-radius: 1rem;
     width: 100%;
 }
@@ -17,7 +9,7 @@
     gap: 2rem;
 }
 
-#rusland, #oekraine, #spanje {
+section {
     margin: 0 2rem;
     display: flex;
     flex-direction: column;
