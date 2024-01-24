@@ -20,35 +20,34 @@
     <body>
         <header>
             <nav class="navbar">
-                <a href="../"><img src="../img/Logo_airline.png" alt="logo website" class="logo"></a>
+                <a href="../index.html"><img src="../img/Logo_airline.png" alt="logo website" class="logo"></a>
                 <ul>
-                    <li><a href="../">Home</a></li>
-                    <li><a href="../about/">About</a></li>
-                    <li><a href="../vakanties/">Vakanties</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="../vakanties/" id="vakanties">Vakanties</a></li>
                     <li><a href="../cruises/">Cruises</a></li>
                     <li><a href="../contact/">Contact</a></li>
                 </ul>
                 <div class="dropdown">
-                    <a href="#">Talen ▾</a>
+                    <a href="#" id="talen">Talen ▾</a>
                     <div class="dropdown-content">
-                        <a href="#">Nederlands</a>
-                        <a href="#">Engels</a>
+                        <a href="#" class="language-option" data-lang="nl">Nederlands</a>
+                        <a href="#" class="language-option" data-lang="en">Engels</a>
                     </div>
                 </div>
             </nav>
         </header>
-
         <main>
             <section id="oekraine">
-                <h1>Welkom in Oekraïne!</h1>
+                <h1 id="project_title">Welkom in Oekraïne!</h1>
                 <div class="kiev">
                     <div class="row">
                         <figure>
                             <img src="../img/kiev.jpg" alt="foto van Kiev">
                         </figure>
                         <div class="text">
-                            <h2>Kiev</h2>
-                            <p>Kiev, de hoofdstad van Oekraïne, is een stad doordrenkt van geschiedenis en cultuur. Enkele hoogtepunten zijn het Onafhankelijkheidsplein, de Gouden Poort en de Sint-Sofiakathedraal. Vergeet niet om de lokale keuken te proeven in traditionele Oekraïense restaurants.</p>
+                            <h2 id="title_1">Kiev</h2>
+                            <p id="content">Kiev, de hoofdstad van Oekraïne, is een stad doordrenkt van geschiedenis en cultuur. Enkele hoogtepunten zijn het Onafhankelijkheidsplein, de Gouden Poort en de Sint-Sofiakathedraal. Vergeet niet om de lokale keuken te proeven in traditionele Oekraïense restaurants.</p>
                         </div>
                     </div>
                 </div>
@@ -58,12 +57,12 @@
                             <img src="../img/lviv.jpg" alt="foto van Lviv">
                         </figure>
                         <div class="text">
-                            <h2>Lviv</h2>
-                            <p>Lviv, een stad in het westen van Oekraïne, staat bekend om zijn charmante oude stad en kleurrijke architectuur. Breng een bezoek aan het Rynok-plein, het Lviv High Castle en geniet van de gezellige sfeer in de lokale cafés. De stad biedt een unieke mix van geschiedenis en moderniteit.</p>
+                            <h2 id="title_2">Lviv</h2>
+                            <p id="content_2">Lviv, een stad in het westen van Oekraïne, staat bekend om zijn charmante oude stad en kleurrijke architectuur. Breng een bezoek aan het Rynok-plein, het Lviv High Castle en geniet van de gezellige sfeer in de lokale cafés. De stad biedt een unieke mix van geschiedenis en moderniteit.</p>
                         </div>
                     </div>
                 </div>
-                <p class="afsluit">Beide steden hebben hun eigen unieke charme en dragen bij aan de diverse schoonheid van Oekraïne. Of je nu geïnteresseerd bent in geschiedenis, kunst, of gewoon wilt genieten van de sfeer, Oekraïne heeft voor elk wat wils. Veel plezier met het plannen van je reis!</p>
+                <p class="afsluit" id="afsluit">Beide steden hebben hun eigen unieke charme en dragen bij aan de diverse schoonheid van Oekraïne. Of je nu geïnteresseerd bent in geschiedenis, kunst, of gewoon wilt genieten van de sfeer, Oekraïne heeft voor elk wat wils. Veel plezier met het plannen van je reis!</p>
             </section>
 
         </main>
@@ -95,5 +94,6 @@
                 </div>
             </div>
         </footer>
+        <script src="../scripts/vertalen_vakantie_pagina.js"></script>
     </body>
 </html>

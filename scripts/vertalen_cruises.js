@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    vakanties = document.getElementById('vakanties')
+     var vakanties = document.getElementById('vakanties')
     // Function to set cookie
     function setCookie(name, value, days) {
         var expires = '';

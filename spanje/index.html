@@ -20,19 +20,19 @@
     <body>
         <header>
             <nav class="navbar">
-                <a href="../"><img src="../img/Logo_airline.png" alt="logo website" class="logo"></a>
+                <a href="../index.html"><img src="../img/Logo_airline.png" alt="logo website" class="logo"></a>
                 <ul>
-                    <li><a href="../">Home</a></li>
-                    <li><a href="../about/">About</a></li>
-                    <li><a href="../vakanties/">Vakanties</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="../vakanties/" id="vakanties">Vakanties</a></li>
                     <li><a href="../cruises/">Cruises</a></li>
                     <li><a href="../contact/">Contact</a></li>
                 </ul>
                 <div class="dropdown">
-                    <a href="#">Talen ▾</a>
+                    <a href="#" id="talen">Talen ▾</a>
                     <div class="dropdown-content">
-                        <a href="#">Nederlands</a>
-                        <a href="#">Engels</a>
+                        <a href="#" class="language-option" data-lang="nl">Nederlands</a>
+                        <a href="#" class="language-option" data-lang="en">Engels</a>
                     </div>
                 </div>
             </nav>
@@ -40,15 +40,15 @@
 
         <main>
             <section id="spanje">
-                <h1>Welkom in Spanje</h1>
+                <h1 id="project_title">Welkom in Spanje</h1>
                 <div class="barcelona">
                     <div class="row">
                         <figure>
                             <img src="../img/barcelona.jpg" alt="foto van Barcelona">
                         </figure>
                         <div class="text">
-                            <h2>Barcelona</h2>
-                            <p>Barcelona, de bruisende stad aan de Middellandse Zee, staat bekend om zijn architectonische meesterwerken van Gaudí, waaronder de Sagrada Família en Park Güell. Verken de levendige Ramblas, proef heerlijke tapas en geniet van het strand van Barceloneta.</p>
+                            <h2 id="title_1">Barcelona</h2>
+                            <p id="content">Barcelona, de bruisende stad aan de Middellandse Zee, staat bekend om zijn architectonische meesterwerken van Gaudí, waaronder de Sagrada Família en Park Güell. Verken de levendige Ramblas, proef heerlijke tapas en geniet van het strand van Barceloneta.</p>
                         </div>
                     </div>
                 </div>
@@ -58,12 +58,12 @@
                             <img src="../img/madrid.jpg" alt="foto van Madrid">
                         </figure>
                         <div class="text">
-                            <h2>Madrid</h2>
-                            <p>Madrid, de hoofdstad van Spanje, ademt cultuur en geschiedenis. Bezoek het Koninklijk Paleis, dwal door de weelderige Retiro-tuinen en bewonder kunstwerken in het wereldberoemde Prado Museum. Geniet van de levendige sfeer op de Plaza Mayor en proef authentieke Spaanse gerechten.</p>
+                            <h2 id="title_2">Madrid</h2>
+                            <p id="content_2">Madrid, de hoofdstad van Spanje, ademt cultuur en geschiedenis. Bezoek het Koninklijk Paleis, dwal door de weelderige Retiro-tuinen en bewonder kunstwerken in het wereldberoemde Prado Museum. Geniet van de levendige sfeer op de Plaza Mayor en proef authentieke Spaanse gerechten.</p>
                         </div>
                     </div>
                 </div>
-                <p class="afsluit">Beide steden hebben hun eigen unieke karakter en dragen bij aan de levendige schoonheid van Spanje. Of je nu geïnteresseerd bent in kunst, geschiedenis of gewoon wilt ontspannen onder de Spaanse zon, Spanje heeft voor elk wat wils. ¡Disfruta de tus vacaciones!</p>
+                <p class="afsluit" id="afsluit">Beide steden hebben hun eigen unieke karakter en dragen bij aan de levendige schoonheid van Spanje. Of je nu geïnteresseerd bent in kunst, geschiedenis of gewoon wilt ontspannen onder de Spaanse zon, Spanje heeft voor elk wat wils. ¡Disfruta de tus vacaciones!</p>
             </section>
         </main>
         <footer>
@@ -94,5 +94,6 @@
                 </div>
             </div>
         </footer>
+        <script src="../scripts/vertalen_vakantie_pagina.js"></script>
     </body>
 </html>

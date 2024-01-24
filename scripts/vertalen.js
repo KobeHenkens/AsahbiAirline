@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    vakanties = document.getElementById('vakanties')
+     var vakanties = document.getElementById('vakanties')
+     var talen = document.getElementById('talen')
     // Function to set cookie
     function setCookie(name, value, days) {
         var expires = '';
@@ -47,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var content = document.getElementById('content');
         if (taalCode === 'en') {
             console.log('Language set to English');
+            talen.textContent = "Language ▾"
             vakanties.textContent = "holidays"
             content.innerHTML = content.innerHTML = `<section class="start-home">
             <div class="data">
@@ -111,6 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             console.log('Language set to Dutch');
             vakanties.textContent = "vakanties"
+            talen.textContent = "Talen ▾"
             content.innerHTML = `<section class="start-home">
                     <div class="data">
                         <h1 class="animate__animated animate__fadeInDown">Welkom bij Asahbi Airline</h1>
