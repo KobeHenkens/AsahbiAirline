@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var content = document.getElementById('content');
         if (taalCode === 'en') {
             console.log('Language set to English');
-            talen.textContent = "Language ▾"
+            talen.textContent = "Language ▾" 
             vakanties.textContent = "holidays"
             content.innerHTML = content.innerHTML = `<section class="start-home">
             <div class="data">

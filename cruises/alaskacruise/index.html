@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Asahbi Cruise-Caribbean</title>
+    <title>Asahbi Cruise-Alaska</title>
     <link rel="stylesheet" href="https://unpkg.com/@csstools/normalize.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,15 +22,15 @@
             <ul>
                 <li><a href="../../index.html">Home</a></li>
                 <li><a href="../../about/">About</a></li>
-                <li><a href="../../vakanties/">Vakanties</a></li>
+                <li><a href="../../vakanties/" id="vakanties">Vakanties</a></li>
                 <li><a href="../../cruises/">Cruises</a></li>
                 <li><a href="../../contact/">Contact</a></li>
             </ul>
             <div class="dropdown">
-                <a href="#">Talen ▾</a>
+                <a href="#" id="talen">Talen ▾</a>
                 <div class="dropdown-content">
-                    <a href="#">Nederlands</a>
-                    <a href="#">Engels</a>
+                    <a href="#" class="language-option" data-lang="nl">Nederlands</a>
+                    <a href="#" class="language-option" data-lang="en">Engels</a>
                 </div>
             </div>
         </nav>
@@ -38,15 +38,15 @@
 
     <main>
         <section id="alaska">
-            <h1 class="animate__animated animate__fadeInDown">Ervaar de magie van een cruise in Alaska!</h1>
+            <h1 class="animate__animated animate__fadeInDown" id="project_title">Ervaar de magie van een cruise in Alaska!</h1>
             <div class="denali">
                 <div class="row">
                     <figure>
                         <img src="../../img/Alaska.jpg" alt="foto van Alaska cruise met uitzicht op Denali">
                     </figure>
                     <div class="text">
-                        <h2>Alaska Cruise</h2>
-                        <p>Stap aan boord van onze luxe cruise en laat je betoveren door de ongerepte schoonheid van Alaska. Vaar langs majestueuze gletsjers, bewonder het adembenemende landschap en ervaar de unieke wildlife-ontmoetingen, allemaal vanaf het comfort van je cruiseboot.</p>
+                        <h2 id="title_1">Alaska Cruise</h2>
+                        <p  id="content">Stap aan boord van onze luxe cruise en laat je betoveren door de ongerepte schoonheid van Alaska. Vaar langs majestueuze gletsjers, bewonder het adembenemende landschap en ervaar de unieke wildlife-ontmoetingen, allemaal vanaf het comfort van je cruiseboot.</p>
                     </div>
                 </div>
             </div>
@@ -81,5 +81,6 @@
             </div>
         </div>
     </footer>
+    <script src="/../scripts/vertalen_cruises_pagina.js"></script>
 </body>
 </html>

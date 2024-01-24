@@ -22,15 +22,15 @@
             <ul>
                 <li><a href="../../index.html">Home</a></li>
                 <li><a href="../../about/">About</a></li>
-                <li><a href="../../vakanties/">Vakanties</a></li>
+                <li><a href="../../vakanties/" id="vakanties">Vakanties</a></li>
                 <li><a href="../../cruises/">Cruises</a></li>
                 <li><a href="../../contact/">Contact</a></li>
             </ul>
             <div class="dropdown">
-                <a href="#">Talen ▾</a>
+                <a href="#" id="talen">Talen ▾</a>
                 <div class="dropdown-content">
-                    <a href="#">Nederlands</a>
-                    <a href="#">Engels</a>
+                    <a href="#" class="language-option" data-lang="nl">Nederlands</a>
+                    <a href="#" class="language-option" data-lang="en">Engels</a>
                 </div>
             </div>
         </nav>
@@ -38,15 +38,15 @@
 
     <main>
         <section id="caribbean">
-            <h1 class="animate__animated animate__fadeInDown">Ontdek de Caribbean!</h1>
+            <h1 class="animate__animated animate__fadeInDown" id="project_title">Ontdek de Caribbean!</h1>
             <div class="bahamas">
                 <div class="row">
                     <figure>
                         <img src="../../img/Bahamas.jpg" alt="foto van de Caribbean">
                     </figure>
                     <div class="text">
-                        <h2>Bahamas</h2>
-                        <p>Geniet van paradijselijke stranden, kristalhelder water en een ontspannen sfeer in de Bahamas. Ontdek de kleurrijke koraalriffen tijdens het snorkelen, maak kennis met de lokale cultuur en proef de heerlijke Caribische keuken.</p>
+                        <h2 id="title_1">Bahamas</h2>
+                        <p id="content">Geniet van paradijselijke stranden, kristalhelder water en een ontspannen sfeer in de Bahamas. Ontdek de kleurrijke koraalriffen tijdens het snorkelen, maak kennis met de lokale cultuur en proef de heerlijke Caribische keuken.</p>
                     </div>
                 </div>
             </div>
@@ -56,12 +56,12 @@
                         <img src="../../img/Jamaica.jpg" alt="foto van Jamaica">
                     </figure>
                     <div class="text">
-                        <h2>Jamaica</h2>
-                        <p>Verken de levendige cultuur van Jamaica, bekend om reggaemuziek, prachtige watervallen en vriendelijke locals. Maak een avontuurlijke excursie naar Dunn's River Falls en geniet van de relaxte sfeer op de stranden.</p>
+                        <h2 id="title_2">Jamaica</h2>
+                        <p id="content_2">Verken de levendige cultuur van Jamaica, bekend om reggaemuziek, prachtige watervallen en vriendelijke locals. Maak een avontuurlijke excursie naar Dunn's River Falls en geniet van de relaxte sfeer op de stranden.</p>
                     </div>
                 </div>
             </div>
-            <p class="afsluit">Laat je betoveren door de schoonheid van de Caribbean. Boek nu en beleef een onvergetelijke cruise vol zon, zee en avontuur!</p>
+            <p class="afsluit" id="afsluit">Laat je betoveren door de schoonheid van de Caribbean. Boek nu en beleef een onvergetelijke cruise vol zon, zee en avontuur!</p>
         </section>
     </main>
 
@@ -93,5 +93,6 @@
             </div>
         </div>
     </footer>
+    <script src="/../scripts/vertalen_cruises_pagina.js"></script>
 </body>
 </html>

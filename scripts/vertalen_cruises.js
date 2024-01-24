@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
      var vakanties = document.getElementById('vakanties')
+     var talen = document.getElementById('talen')
     // Function to set cookie
     function setCookie(name, value, days) {
         var expires = '';
@@ -46,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function stelTaalIn(taalCode) {
         var content = document.getElementById('content');
         if (taalCode === 'en') {
+            talen.textContent = "Language ▾"
             console.log('Language set to English');
             vakanties.textContent = "holidays"
             content.innerHTML = content.innerHTML = `<section class="achtergrond">
@@ -93,6 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </section>`
 
         } else {
+            talen.textContent = "Talen ▾"
             console.log('Language set to Dutch');
             vakanties.textContent = "vakanties"
             content.innerHTML = `<section class="achtergrond">

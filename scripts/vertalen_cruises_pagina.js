@@ -57,27 +57,24 @@ document.addEventListener('DOMContentLoaded', function () {
             talen.textContent = "Language ▾"
 
             console.log('Taal ingesteld op Engels');
-            if(title_page === "Asahbi Airline-Rusland"){
-                project_title.textContent = "Welcome to Russia!"
-                title_1.textContent = "Moscow"
-                title_2.textContent = "St. Petersburg"
-                content.textContent = "Moscow, the capital of Russia, is a city steeped in history and culture. Some highlights include Red Square, the Kremlin and St. Basil's Cathedral. Don't forget to explore the famous Trans-Siberian Railway and enjoy Russian cuisine in local restaurants."
-                content_2.textContent = "Sint-Petersburg, ook wel het 'Venetië van het Noorden' genoemd, staat bekend om zijn prachtige grachten en indrukwekkende architectuur. Breng een bezoek aan de Hermitage, de Peter-en-Paulvesting en geniet van een wandeling langs de Nevski Prospekt. De stad biedt een rijke culturele ervaring en adembenemende bezienswaardigheden."
-                afsluiten.textContent = "photo of saint petersburg St. Petersburg Saint Petersburg, also known as the 'Venice of the North', is known for its beautiful canals and impressive architecture. Visit the Hermitage, the Peter and Paul Fortress and enjoy a walk along Nevsky Prospekt. The city offers a rich cultural experience and breathtaking sights.Both cities have their unique charm and contribute to the diverse beauty of Russia. Whether you are interested in history, art, or just want to enjoy the atmosphere, Russia has something for everyone. Have fun planning your trip!"
-            } else if (title_page === "Asahbi Airline-Spanje"){
-                project_title.textContent = "Welcome to Spain"
-                title_1.textContent = "Barcelona"
-                title_2.textContent = "Madrid"
-                content.textContent = "Barcelona, ​​the vibrant city on the Mediterranean Sea, is known for its architectural masterpieces by Gaudí, including the Sagrada Família and Park Güell. Explore the lively Ramblas, taste delicious tapas and enjoy Barceloneta beach."
-                content_2.textContent = "Madrid, the capital of Spain, breathes culture and history. Visit the Royal Palace, wander through the lush Retiro Gardens and admire works of art at the world-famous Prado Museum. Enjoy the lively atmosphere of the Plaza Mayor and taste authentic Spanish dishes."
-                afsluiten.textContent = "Both cities have their own unique character and contribute to the vibrant beauty of Spain. Whether you are interested in art, history or just want to relax under the Spanish sun, Spain has something for everyone. ¡Disfruta de tus vacaciones!"
-            } else if (title_page === "Asahbi Airline-Ukraine"){
-                project_title.textContent = "Welcome to Ukraine!"
-                title_1.textContent = "Kiev"
-                title_2.textContent = "Lviv"
-                content.textContent = "Kiev, the capital of Ukraine, is a city steeped in history and culture. Some highlights include Independence Square, the Golden Gate and St. Sophia's Cathedral. Don't forget to taste local cuisine in traditional Ukrainian restaurants."
-                content_2.textContent = "Lviv, a city in western Ukraine, is known for its charming old town and colorful architecture. Visit Rynok Square, Lviv High Castle and enjoy the cozy atmosphere in local cafes. The city offers a unique mix of history and modernity."
-                afsluiten.textContent = "Both cities have their own unique charm and contribute to the diverse beauty of Ukraine. Whether you are interested in history, art, or just want to enjoy the atmosphere, Ukraine has something for everyone. Have fun planning your trip!"
+            if(title_page === "Asahbi Cruise-Caribbean"){
+                project_title.textContent = "Discover the Caribbean!"
+                title_1.textContent = "Bahamas"
+                title_2.textContent = "Jamaica"
+                content.textContent = "Enjoy paradisiacal beaches, crystal clear waters and a relaxing atmosphere in the Bahamas. Discover the colorful coral reefs while snorkeling, get to know the local culture and taste the delicious Caribbean cuisine."
+                content_2.textContent = "Explore Jamaica's vibrant culture, known for reggae music, beautiful waterfalls and friendly locals. Take an adventurous excursion to Dunn's River Falls and enjoy the relaxed atmosphere on the beaches."
+                afsluiten.textContent = "Be enchanted by the beauty of the Caribbean. Book now and experience an unforgettable cruise full of sun, sea and adventure!"
+            } else if (title_page === "Asahbi Cruise-Middellandsezee"){
+                project_title.textContent = "Explore the beautiful Mediterranean!"
+                title_1.textContent = "Greece"
+                title_2.textContent = "Italy"
+                content.textContent = "Discover the historic charm of Greece with its ancient ruins, whitewashed buildings and azure waters. Visit iconic places such as Athens, Santorini and Mykonos on your Mediterranean cruise."
+                content_2.textContent = "Be enchanted by the beauty of Italy with its ancient cities, art treasures and delicious cuisine. Explore the romantic canals of Venice, admire the beautiful Amalfi Coast and enjoy the cultural riches of Rome."
+                afsluiten.textContent = "Experience the magic of the Mediterranean on a cruise full of culture, history and breathtaking landscapes. Book now for an unforgettable trip!"
+            } else if (title_page === "Asahbi Cruise-Alaska"){
+                project_title.textContent = "Experience the magic of an Alaska cruise!"
+                title_1.textContent = "Alaska Cruise"
+                content.textContent = "Step aboard our luxury cruise and be enchanted by the pristine beauty of Alaska. Cruise past majestic glaciers, admire breathtaking scenery and experience unique wildlife encounters, all from the comfort of your cruise boat."
             }
 
         } else {
@@ -85,28 +82,26 @@ document.addEventListener('DOMContentLoaded', function () {
             talen.textContent = 'Taal ▾'
 
             console.log('Taal ingesteld op Nederlands');
-            if(title_page === "Asahbi Airline-Rusland"){
-                project_title.textContent = "Welkom in Rusland!" 
-                title_1.textContent = "Moskou"
-                title_2.textContent = "Sint-Petersburg"
-                content.textContent = "Moskou, de hoofdstad van Rusland, is een stad doordrenkt van geschiedenis en cultuur. Enkele hoogtepunten zijn het Rode Plein, het Kremlin en de Basiliuskathedraal. Vergeet niet om de beroemde Trans-Siberische spoorlijn te verkennen en te genieten van de Russische keuken in lokale restaurants."
-                content_2.textContent = "Sint-Petersburg, ook wel het 'Venetië van het Noorden' genoemd, staat bekend om zijn prachtige grachten en indrukwekkende architectuur. Breng een bezoek aan de Hermitage, de Peter-en-Paulvesting en geniet van een wandeling langs de Nevski Prospekt. De stad biedt een rijke culturele ervaring en adembenemende bezienswaardigheden."
-                afsluiten.textContent = "Beide steden hebben hun unieke charme en dragen bij aan de diverse schoonheid van Rusland. Of je nu geïnteresseerd bent in geschiedenis, kunst, of gewoon wilt genieten van de sfeer, Rusland heeft voor elk wat wils. Veel plezier met het plannen van je reis!"
+            if(title_page === "Asahbi Cruise-Caribbean"){
+                project_title.textContent = "Ontdek de Caribbean!"
+                title_1.textContent = "Bahamas"
+                title_2.textContent = "Jamaica"
+                content.textContent = "Geniet van paradijselijke stranden, kristalhelder water en een ontspannen sfeer in de Bahamas. Ontdek de kleurrijke koraalriffen tijdens het snorkelen, maak kennis met de lokale cultuur en proef de heerlijke Caribische keuken."
+                content_2.textContent = "Verken de levendige cultuur van Jamaica, bekend om reggaemuziek, prachtige watervallen en vriendelijke locals. Maak een avontuurlijke excursie naar Dunn's River Falls en geniet van de relaxte sfeer op de stranden."
+                afsluiten.textContent = "Laat je betoveren door de schoonheid van de Caribbean. Boek nu en beleef een onvergetelijke cruise vol zon, zee en avontuur!"
         
-            }else if (title_page === "Asahbi Airline-Spanje"){
-                project_title.textContent = "Welkom in Spanje"
-                title_1.textContent = "Barcelona"
-                title_2.textContent = "Madrid"
-                content.textContent = "Barcelona, de bruisende stad aan de Middellandse Zee, staat bekend om zijn architectonische meesterwerken van Gaudí, waaronder de Sagrada Família en Park Güell. Verken de levendige Ramblas, proef heerlijke tapas en geniet van het strand van Barceloneta."
-                content_2.textContent = "Madrid, de hoofdstad van Spanje, ademt cultuur en geschiedenis. Bezoek het Koninklijk Paleis, dwal door de weelderige Retiro-tuinen en bewonder kunstwerken in het wereldberoemde Prado Museum. Geniet van de levendige sfeer op de Plaza Mayor en proef authentieke Spaanse gerechten."
-                afsluiten.textContent = "Beide steden hebben hun eigen unieke karakter en dragen bij aan de levendige schoonheid van Spanje. Of je nu geïnteresseerd bent in kunst, geschiedenis of gewoon wilt ontspannen onder de Spaanse zon, Spanje heeft voor elk wat wils. ¡Disfruta de tus vacaciones!"
-            }else if (title_page === "Asahbi Airline-Ukraine"){
-                project_title.textContent = "Welkom in Oekraïne!"
-                title_1.textContent = "Kiev"
-                title_2.textContent = "Lviv"
-                content.textContent = "Kiev, de hoofdstad van Oekraïne, is een stad doordrenkt van geschiedenis en cultuur. Enkele hoogtepunten zijn het Onafhankelijkheidsplein, de Gouden Poort en de Sint-Sofiakathedraal. Vergeet niet om de lokale keuken te proeven in traditionele Oekraïense restaurants."
-                content_2.textContent = "Lviv, een stad in het westen van Oekraïne, staat bekend om zijn charmante oude stad en kleurrijke architectuur. Breng een bezoek aan het Rynok-plein, het Lviv High Castle en geniet van de gezellige sfeer in de lokale cafés. De stad biedt een unieke mix van geschiedenis en moderniteit."
-                afsluiten.textContent = "Beide steden hebben hun eigen unieke charme en dragen bij aan de diverse schoonheid van Oekraïne. Of je nu geïnteresseerd bent in geschiedenis, kunst, of gewoon wilt genieten van de sfeer, Oekraïne heeft voor elk wat wils. Veel plezier met het plannen van je reis!"
+            }else if (title_page === "Asahbi Cruise-Middellandsezee"){
+                project_title.textContent = "Verken de prachtige Middellandse Zee!"
+                title_1.textContent = "Griekenland"
+                title_2.textContent = "Italië"
+                content.textContent = "Ontdek de historische charme van Griekenland met zijn oude ruïnes, witgekalkte gebouwen en azuurblauwe wateren. Bezoek iconische plaatsen zoals Athene, Santorini en Mykonos tijdens je cruise door de Middellandse Zee."
+                content_2.textContent = "Laat je betoveren door de schoonheid van Italië met zijn eeuwenoude steden, kunstschatten en heerlijke keuken. Verken de romantische kanalen van Venetië, bewonder de prachtige kust van Amalfi en geniet van de culturele rijkdom van Rome."
+                afsluiten.textContent = "Ervaar de magie van de Middellandse Zee tijdens een cruise vol cultuur, geschiedenis en adembenemende landschappen. Boek nu voor een onvergetelijke reis!"     
+
+            }else if (title_page === "Asahbi Cruise-Alaska"){
+                project_title.textContent = "Ervaar de magie van een cruise in Alaska!"
+                title_1.textContent = "Alaska Cruise"
+                content.textContent = "Stap aan boord van onze luxe cruise en laat je betoveren door de ongerepte schoonheid van Alaska. Vaar langs majestueuze gletsjers, bewonder het adembenemende landschap en ervaar de unieke wildlife-ontmoetingen, allemaal vanaf het comfort van je cruiseboot."
             }
         }
 
