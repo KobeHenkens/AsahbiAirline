@@ -138,24 +138,24 @@ if (isset($_POST['btnSubmit'])) {
         <header>
             <nav class="navbar">
                 <a href="../index.html"><img src="../img/Logo_airline.png" alt="logo website" class="logo"></a>
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../about/">About</a></li>
-                        <li><a href="../vakanties/">Vakanties</a></li>
-                        <li><a href="../cruises/">Cruises</a></li>
-                        <li><a href="./index.php">Contact</a></li>
-                    </ul>
-                    <div class="dropdown">
-                        <a href="#">Talen ▾</a>
-                        <div class="dropdown-content">
-                            <a href="#">Nederlands</a>
-                            <a href="#">Engels</a>
-                        </div>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="../vakanties/" id="vakanties">Vakanties</a></li>
+                    <li><a href="../cruises/">Cruises</a></li>
+                    <li><a href="../contact/">Contact</a></li>
+                </ul>
+                <div class="dropdown">
+                    <a href="#">Talen ▾</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="language-option" data-lang="nl">Nederlands</a>
+                        <a href="#" class="language-option" data-lang="en">Engels</a>
                     </div>
-                </nav>
-            </header>
+                </div>
+            </nav>
+        </header>
 
-            <main>
+        <main id="content">
                 <section class="start-contact">
                     <h1>Contacteer ons!</h1>
                     <!--Image-->
@@ -277,5 +277,6 @@ if (isset($_POST['btnSubmit'])) {
             <!--Copyright Section End-->
 
         </footer>
+        <script src="../scripts/vertalen_contact.js"></script>
     </body>
 </html>

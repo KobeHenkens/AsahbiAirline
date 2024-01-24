@@ -19,21 +19,21 @@
             <a href="../index.html"><img src="../img/Logo_airline.png" alt="logo website" class="logo"></a>
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../about/">About</a></li>
-                <li><a href="../vakanties/">Vakanties</a></li>
-                <li><a href="./index.html">Cruises</a></li>
+                <li><a href="./index.html">About</a></li>
+                <li><a href="../vakanties/" id="vakanties">Vakanties</a></li>
+                <li><a href="../cruises/">Cruises</a></li>
                 <li><a href="../contact/">Contact</a></li>
             </ul>
             <div class="dropdown">
                 <a href="#">Talen ▾</a>
                 <div class="dropdown-content">
-                    <a href="#">Nederlands</a>
-                    <a href="#">Engels</a>
+                    <a href="#" class="language-option" data-lang="nl">Nederlands</a>
+                    <a href="#" class="language-option" data-lang="en">Engels</a>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main id="content">
         <section class="achtergrond">
             <h1>Ontdek de wereld via een prachtige cruise!</h1>
             <!--Image-->
@@ -111,5 +111,6 @@
         <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
         <script src="https://mediafiles.botpress.cloud/0b310942-cdf9-48ae-beed-51caac1f4153/webchat/config.js" defer></script>
     </footer>
+    <script src="../scripts/vertalen_cruises.js"></script>
 </body>
 </html>
